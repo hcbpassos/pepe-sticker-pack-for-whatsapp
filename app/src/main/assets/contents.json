@@ -1,0 +1,97 @@
+{
+  "android_play_store_link": "",
+  "sticker_packs": [
+    {
+      "identifier": "1",
+      "name": "Pepe",
+      "publisher": "Hugo Castelani",
+      "tray_image_file": "tray_Pepe.png",
+      "stickers": [
+        {
+          "image_file": "01_Pepe_laugh.webp",
+          "emojis": ["😂", "🤣", "😹"]
+        },
+        {
+          "image_file": "02_Pepe_smile.webp",
+          "emojis": ["😀","😁", "😄"]
+        },
+        {
+          "image_file": "03_Pepe_cry.webp",
+          "emojis": ["😥", "😿"]
+        },
+        {
+          "image_file": "04_Pepe_ostentation.webp",
+          "emojis": ["😎", "🕶️", "🤑"]
+        },
+        {
+          "image_file": "05_Pepe_sad.webp",
+          "emojis": ["😔", "😞", "😟"]
+        },
+        {
+          "image_file": "06_Pepe_rage.webp",
+          "emojis": ["😡", "😠", "😤"]
+        },
+        {
+          "image_file": "07_Pepe_suggestive.webp",
+          "emojis": ["😏"]
+        },
+        {
+          "image_file": "08_Pepe_chaos.webp",
+          "emojis": ["🌋", "🔥"]
+        },
+        {
+          "image_file": "09_Pepe_foreveralone.webp",
+          "emojis": ["😩"]
+        },
+        {
+          "image_file": "10_Pepe_cute.webp",
+          "emojis": ["😚", "😍", "💅"]
+        },
+        {
+          "image_file": "11_Pepe_malicious.webp",
+          "emojis": ["💰", "😏"]
+        },
+        {
+          "image_file": "12_Pepe_drunk.webp",
+          "emojis": ["🍺", "🥴", "🍻"]
+        },
+        {
+          "image_file": "13_Pepe_anxious.webp",
+          "emojis": ["😓", "😰"]
+        },
+        {
+          "image_file": "14_Pepe_womanish.webp",
+          "emojis": ["💁", "👩"]
+        },
+        {
+          "image_file": "15_Pepe_ghost.webp",
+          "emojis": ["👻", "🗯️", "💢"]
+        },
+        {
+          "image_file": "16_Pepe_joker.webp",
+          "emojis": ["🃏", "💀"]
+        },
+        {
+          "image_file": "17_Pepe_resistance.webp",
+          "emojis": ["🔫", "✊"]
+        },
+        {
+          "image_file": "18_Pepe_stoned.webp",
+          "emojis": ["🚬"]
+        },
+        {
+          "image_file": "19_Pepe_desolate.webp",
+          "emojis": ["😭"]
+        },
+        {
+          "image_file": "20_Pepe_logan.webp",
+          "emojis": ["🌞", "🐈"]
+        },
+        {
+          "image_file": "21_Pepe_thoughtful.webp",
+          "emojis": ["🤔", "💭", "😕"]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.hugocastelani.whatsapppepestickerpack">
+
+    <application
+        android:allowBackup="false"
+        android:fullBackupContent="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name="com.hugocastelani.whatsapppepestickerpack.EntryActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.hugocastelani.whatsapppepestickerpack.StickerPackListActivity"
+            android:label="@string/title_activity_sticker_packs_list" />
+        <activity
+            android:name="com.hugocastelani.whatsapppepestickerpack.StickerPackDetailsActivity"
+            android:parentActivityName="com.hugocastelani.whatsapppepestickerpack.StickerPackListActivity"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.hugocastelani.whatsapppepestickerpack.StickerPackListActivity" />
+        </activity>
+        <activity
+            android:name="com.hugocastelani.whatsapppepestickerpack.StickerPackInfoActivity"
+            android:label="@string/title_activity_sticker_pack_info"
+            android:parentActivityName="com.hugocastelani.whatsapppepestickerpack.StickerPackDetailsActivity"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.hugocastelani.whatsapppepestickerpack.StickerPackDetailsActivity" />
+        </activity>
+
+        <provider
+            android:name="com.hugocastelani.whatsapppepestickerpack.StickerContentProvider"
+            android:authorities="${contentProviderAuthority}"
+            android:enabled="true"
+            android:exported="true"
+            android:readPermission="com.whatsapp.sticker.READ" />
+    </application>
+</manifest>

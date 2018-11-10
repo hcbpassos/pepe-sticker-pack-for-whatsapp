@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pepe: Pacote de Figurinhas para WhatsApp</string>
+    <string name="tray_image_content_description">Imagem da bandeja do pacote de figurinhas</string>
+    <string name="more_info_button">Mais informações a respeito do pacote de figurinhas</string>
+    <string name="add_to_whatsapp">Adicionar ao WhatsApp</string>
+    <string name="title_activity_sticker_packs_list">Pacotes de Figurinhas</string>
+    <string name="add_button_content_description">Adicionar pacote de figurinhas ao WhatsApp</string>
+    <string name="title_activity_sticker_pack_details_single_pack">Pacote de Figurinhas</string>
+    <string name="title_activity_sticker_pack_details_multiple_pack">Detalhes da figurinha</string>
+    <string name="title_activity_sticker_pack_info">Informações</string>
+    <string name="view_webpage">Ver site</string>
+    <string name="send_email">Enviar e-mail</string>
+    <string name="privacy_policy">Política de privacidade</string>
+    <string name="error_adding_sticker_pack">Não foi possível adicionar esse pacote de figurinhas. Por favor, instale a última versão do WhatsApp antes de adicionar um pacote de figurinhas.</string>
+    <string name="error_message">Erro: %s  Veja o logcat para um stack trace.</string>
+    <string name="title_validation_error">Erro com o pacote</string>
+    <string name="info_screen_tray_icon">Ícone da bandeja</string>
+    <string name="details_pack_already_added">Pacote de figurinhas adicionado ao WhatsApp</string>
+    <string name="info_send_email_to_prompt">Enviar e-mail com</string>
+    <string name="add_pack_fail_prompt_update_whatsapp">Pacote de figurinhas não adicionado. Se você gostaria de adicioná-lo, certifique-se de ter atualizado o WhatsApp para a última versão.</string>
+    <string name="add_pack_fail_prompt_update_play_link">Atualizar</string>
+    <string name="cannot_find_play_store">O Google Play  não está instalado no seu dispositivo.</string>
+</resources>
